@@ -15,6 +15,17 @@ GCP-SE = GCP Security Engineer domains
 
 WEEK 0 – Cloud Definitions & Responsibility (Pre-class)
 
+Quick Reference (for teachers & students)
+Core AWS Security Docs
+Introduction to AWS Security (whitepaper) https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/security-guidance.html
+AWS Security Specialty Exam Guide https://d1.awsstatic.com/training-and-certification/docs-security-spec/AWS-Certified-Security-Specialty_Exam-Guide.pdf
+
+Core GCP Security Docs
+GCP Security Overview Whitepaper  https://docs.cloud.google.com/docs/security/overview/whitepaper
+Google Cloud Security Foundations Guide (blueprint)  https://services.google.com/fh/files/misc/google-cloud-security-foundations-guide.pdf
+GCP Security Best Practices Center  https://cloud.google.com/security/best-practices?utm_source=chatgpt.com&hl=en
+GCP Security Docs (portal) https://docs.cloud.google.com/docs/security
+
 CCSP
 Domain 1 (Foundations)
 
@@ -277,6 +288,18 @@ Homework
 Read Domain 4
 Practice questions + review wrong answers
 
+Whitepapers
+AWS
+AWS Whitepapers on API Security (in the Security Specialty recommended set — e.g., API Gateway security practices mentioned in AWS community exam guides) 
+AWS Security Documentation (application integration & secure API patterns)
+https://docs.aws.amazon.com/security/
+
+GCP
+GCP security docs covering workload protection & secure deployment
+https://docs.cloud.google.com/docs/security
+GCP Security Docs covering network & access controls (IAM + API Security interfaces)
+https://docs.cloud.google.com/docs/security
+
 NST
 SP 800-218 – Secure Software Development Framework (SSDF)
 SP 800-204 – Microservices Security
@@ -330,6 +353,18 @@ Homework
 Read Domain 5
 30–40 questions
 
+Whitepaper
+AWS
+AWS Security Incident Response guidance (referenced in AWS Security Specialty best resources) 
+AWS documentation on CloudTrail, CloudWatch Logging/Monitoring (core to security ops)
+(Part of AWS Security docs)
+
+GCP
+GCP Security Command Center + logging & monitoring best practices (from security docs)
+https://docs.cloud.google.com/docs/security
+GCP Logging & Monitoring guidance (Cloud Logging)
+https://docs.cloud.google.com/docs/security
+
 NIST
 SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
 
@@ -380,6 +415,14 @@ Homework
 Read Domain 6
 40–50 questions
 
+Whitepapers
+AWS
+AWS Security Documentation + compliance resources (AWS compliance whitepapers)
+
+GCP
+Google Cloud compliance & risk docs via GCP security overview
+https://docs.cloud.google.com/docs/security/overview/whitepaper
+
 NIST
 SP 800-30 Rev. 1 – Risk Assessment
 SP 800-37 Rev. 2 – Risk Management Framework (RMF)
@@ -416,6 +459,19 @@ AWS-SS
 
 GCP-SE
 ✔ Architecture + risk tradeoffs
+
+Whitepapers
+AWS
+AWS Well-Architected Security Pillar Review
+(Revisit whitepaper + reference docs) 
+AWS Certified Security Specialty exam prep (official guide & practice resources)
+https://aws.amazon.com/certification/certified-security-specialty/
+
+GCP
+GCP Enterprise Security Foundations Guide (review sections relevant to weaknesses)
+https://services.google.com/fh/files/misc/google-cloud-security-foundations-guide.pdf
+GCP Security whitepapers & best practices (Google Cloud Whitepapers index — filter for security)
+https://cloud.google.com/whitepapers
 
 Activities
 Identify weak domains
