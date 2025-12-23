@@ -1,0 +1,309 @@
+DOMAIN BREAKDOWN (ISC2 official)
+
+Cloud Concepts, Architecture & Design (17%)
+Cloud Data Security (20%)
+Cloud Platform & Infrastructure Security (17%)
+Cloud Application Security (17%)
+Cloud Security Operations (16%)
+Legal, Risk & Compliance (13%)
+
+CCSP Weekly Spine → AWS Security Specialty → GCP Security Engineer
+
+
+CCSP-D# = CCSP Domain #
+AWS-SS = AWS Security Specialty domains
+GCP-SE = GCP Security Engineer domains
+
+WEEK 0 – Cloud Definitions & Responsibility (Pre-class)
+
+CCSP
+
+Domain 1 (Foundations)
+
+AWS-SS
+✔ Shared Responsibility Model
+✔ Security responsibility by service type
+
+GCP-SE
+✔ Shared responsibility
+✔ Cloud resource hierarchy
+
+Verdict:
+Foundational. This week silently carries all three exams.
+
+NIST
+NIST SP 800-145 – The NIST Definition of Cloud Computing
+
+Why:
+This is the source of truth behind half of CCSP Domain 1.
+ISC2 won’t say “NIST says…”, but they test this exact framing.
+
+👉 Read sections:
+
+Essential Characteristics
+Service Models
+Deployment Models
+
+
+
+
+Weeks 1–2 — Cloud Concepts, Architecture & Design
+
+CCSP
+Domain 1: Cloud Concepts, Architecture & Design
+
+AWS-SS
+✔ Security architecture design
+✔ Multi-account strategies
+✔ Trust boundaries
+
+GCP-SE
+✔ Organization / Folder / Project model
+✔ Design secure cloud architectures
+
+Topics
+Cloud characteristics (NIST)
+Shared Responsibility Model (THIS WILL BE TESTED)
+Deployment models (IaaS/PaaS/SaaS)
+Multi-tenancy risks
+Reference architectures
+
+Instructor emphasis
+How ISC2 frames responsibility, not technology
+Where candidates confuse AWS reality vs exam theory
+
+Homework
+Read Domain 1
+30–40 practice questions
+
+NIST
+SP 800-145 (again, lightly)
+SP 800-146 – Cloud Computing Synopsis and Recommendations
+
+Focus on:
+Cloud risks vs traditional IT
+Roles and responsibilities
+Security implications of service models
+
+Why CCSP cares:
+This is where shared responsibility logic is born.
+
+
+
+Weeks 3–6 — Cloud Data Security
+(Domain 2 – biggest domain, highest ROI)
+
+Topics
+
+Data lifecycle (create → destroy)
+Data classification
+Encryption (at rest / in transit / in use)
+Key management (HSM, BYOK, HYOK)
+Tokenization vs masking
+Backup & retention
+
+Instructor emphasis
+
+Ownership vs custody
+Who controls keys in each service model
+Data residency vs sovereignty (exam loves this)
+
+Homework
+Read Domain 2
+Weekly practice questions (40–50)
+
+NIST
+SP 800-60 Vol. 1 – Guide for Mapping Types of Information
+SP 800-53 Rev. 5 (skim) – Data-related controls
+
+Focus on:
+Data categorization
+Impact levels (low / moderate / high)
+Why classification drives controls
+
+Why CCSP cares:
+Data ownership vs custody is the exam’s favorite trap.
+
+SP 800-57 Part 1 – Key Management
+SP 800-175B – Crypto Mechanisms
+
+Focus on:
+Key ownership
+Key lifecycle
+Separation of duties
+
+Why CCSP cares:
+CCSP doesn’t ask how to encrypt — it asks who controls the keys.
+
+Weeks 7–9 — Cloud Platform & Infrastructure Security
+(Domain 3)
+
+Topics
+Hypervisor risks
+VM isolation
+Container basics (not Kubernetes deep dive)
+Network segmentation
+Identity & access at platform level
+Physical vs logical security
+
+Instructor emphasis
+Cloud changes who does what, not what must be done
+Where exam assumes “provider responsibility”
+
+Homework
+Read Domain 3
+30–40 questions
+
+NIST
+
+SP 800-125 – Security for Virtualization
+SP 800-190 – Application Container Security Guide
+
+Focus on:
+Isolation assumptions
+Hypervisor risks
+Shared infrastructure concerns
+
+Why CCSP cares:
+This explains why provider responsibility ≠ customer responsibility.
+
+SP 800-207 – Zero Trust Architecture
+
+Focus on:
+Identity-centric security
+Least privilege
+Trust boundaries
+
+Why CCSP cares:
+This maps directly to modern cloud IAM thinking without vendor bias.
+
+Weeks 10–12 — Cloud Application Security
+(Domain 4)
+
+Topics
+Secure SDLC in the cloud
+DevOps vs DevSecOps
+APIs (huge exam topic)
+IAM integration
+OWASP relevance
+CI/CD risks
+
+Instructor emphasis
+CCSP ≠ developer exam
+Focus on governance and control, not coding
+
+Homework
+Read Domain 4
+Practice questions + review wrong answers
+
+NST
+SP 800-218 – Secure Software Development Framework (SSDF)
+SP 800-204 – Microservices Security
+
+Focus on:
+Secure SDLC responsibilities
+DevSecOps concepts
+API risk
+
+Why CCSP cares:
+CCSP tests governance, not coding.
+
+SP 800-95 – Guide to Secure Web Services
+
+Focus on:
+Authentication
+Authorization
+Data exposure risks
+
+Weeks 13–15 — Cloud Security Operations
+(Domain 5)
+
+Topics
+Logging & monitoring
+Incident response in cloud
+Forensics challenges
+Business continuity / DR
+Vendor lock-in risks
+SLA management
+
+Instructor emphasis
+Cloud IR ≠ on-prem IR
+Evidence handling & chain of custody (exam loves this)
+
+Homework
+Read Domain 5
+30–40 questions
+
+NIST
+
+SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
+
+Focus on:
+IR phases
+Cloud complications
+Coordination challenges
+
+Why CCSP cares:
+Cloud IR ≠ on-prem IR — and they test that distinction.
+
+SP 800-92 – Guide to Computer Security Log Management
+SP 800-86 – Integrating Forensics
+
+Focus on:
+Evidence handling
+Log ownership
+Forensic limitations in cloud
+
+
+Weeks 16–17 — Legal, Risk & Compliance
+(Domain 6 – tricky, wordy, test-heavy)
+
+Topics
+Contracts & SLAs
+Jurisdiction issues
+Privacy laws (GDPR-style thinking)
+eDiscovery
+Risk assessment
+Audit responsibilities
+
+Instructor emphasis
+This is ISSAP territory
+Always ask: who is accountable?
+
+Homework
+Read Domain 6
+40–50 questions
+
+NIST
+
+SP 800-30 Rev. 1 – Risk Assessment
+SP 800-37 Rev. 2 – Risk Management Framework (RMF)
+
+Focus on:
+Risk ownership
+Authorization
+Accountability
+
+Why CCSP cares:
+This is where ISSAP logic dominates.
+
+Revisit:
+SP 800-145
+SP 800-53 (control families overview)
+SP 800-61
+
+Goal:
+Reinforce responsibility mapping, not details.
+
+Weeks 18–19 — Full Review & Weakness Attack
+(This is where you earn the pass)
+
+Class structure
+Week 18: Domains 1–3 review
+Week 19: Domains 4–6 review
+
+Activities
+Identify weak domains
+Explain why wrong answers are wrong
+Drill shared responsibility questions
+
