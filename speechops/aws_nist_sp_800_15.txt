@@ -1,0 +1,43 @@
+AWS-Focused Interview Questions
+Based on NIST SP 800-145 (Cloud Computing Definition)
+
+Essential Characteristics (AWS Context)
+1) How does AWS demonstrate “on-demand self-service” as defined by NIST SP 800-145, and what security risks does this create in an AWS account?
+2) Which AWS services best illustrate “broad network access,” and how does this characteristic affect the AWS threat model compared to on-prem systems?
+3) How does AWS implement resource pooling, and what does multi-tenancy mean in practice for services like EC2, S3, or Lambda?
+4) Which AWS features most clearly demonstrate “rapid elasticity,” and why does this characteristic complicate security monitoring in AWS?
+5) How does AWS’s use of metering and logging support NIST’s definition of “measured service,” and why is this critical for security and audits?
+
+Service Models (IaaS / PaaS / SaaS in AWS)
+6) Using AWS examples, explain how security responsibility changes as you move from EC2 (IaaS) to services like RDS, Lambda, or managed SaaS offerings.
+7) Why does NIST define service models by abstraction level, and how is this abstraction clearly visible in AWS services?
+8) How would you explain the security implications of moving from EC2 to AWS Lambda using NIST’s cloud service model framework?
+
+Deployment Models (AWS)
+9) How does AWS implement a public cloud according to NIST SP 800-145, and what would disqualify an AWS environment from being considered “cloud” under NIST’s definition?
+10) What AWS architectures would qualify as a hybrid cloud under NIST’s definition, and why?
+11) How could AWS support a “community cloud” model, even though AWS itself is a public cloud provider?
+
+Virtualization vs Cloud (AWS)
+12) Why does NIST say virtualization alone is not cloud computing, and how does AWS go beyond virtualization to meet the cloud definition?
+13) Can you give an example of an AWS environment that uses virtualization but might fail to meet one or more of NIST’s cloud characteristics?
+
+Governance, Risk, and Security Operations (AWS)
+14) How does NIST’s definition of cloud computing influence how security teams design IAM policies in AWS?
+15) Which AWS services help address the risks introduced by rapid elasticity and ephemeral resources?
+16) How does AWS logging and monitoring infrastructure support accountability in a NIST-defined cloud environment?
+
+Compliance, FedRAMP, and NIST Alignment
+17) Why is NIST SP 800-145 foundational to FedRAMP, and how does AWS align its cloud offerings with that definition?
+18) How would you use NIST SP 800-145 to evaluate whether an AWS GovCloud deployment truly meets cloud computing requirements?
+
+Vendor Claims & Real-World Scenarios
+19) If a vendor says their AWS deployment is a “private cloud,” how would you assess that claim using NIST SP 800-145?
+20) How would you explain to leadership why simply running workloads in AWS does not automatically mean you are “doing cloud” under NIST’s definition?
+
+Senior / Architecture-Level Questions
+21) How does NIST SP 800-145 help security architects reason about AWS service selection and risk tradeoffs?
+22) Why is NIST’s cloud definition still relevant even as AWS introduces new managed and serverless services?
+
+One interview-level closer: “AWS provides cloud services, but NIST SP 800-145 tells us whether we are actually operating as a cloud.”
+
