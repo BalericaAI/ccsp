@@ -1,0 +1,48 @@
+GCP-Focused Interview Questions
+Based on NIST SP 800-145 (Cloud Computing Definition)
+
+
+Essential Characteristics (GCP Context)
+1) How does Google Cloud demonstrate “on-demand self-service” under NIST SP 800-145, and what governance risks does this introduce in a GCP project?
+2) Which GCP services best represent “broad network access,” and how does this characteristic expand the attack surface in GCP environments?
+3) How does Google Cloud implement resource pooling, and what does multi-tenancy mean for services like Compute Engine, Cloud Storage, or BigQuery?
+4) Which GCP features most clearly demonstrate “rapid elasticity,” and why does this make traditional security monitoring more difficult?
+5) How does GCP’s billing, logging, and metrics infrastructure support the NIST concept of “measured service,” and why is this important for security accountability?
+
+Service Models (IaaS / PaaS / SaaS in GCP)
+6) Using GCP examples, explain how security responsibility shifts as you move from Compute Engine to services like Cloud Run, App Engine, or Google-managed SaaS offerings.
+7) Why does NIST define cloud service models by abstraction level, and how is this abstraction clearly visible across GCP services?
+8) How would you explain the security implications of moving from Compute Engine to Cloud Run using NIST’s service model framework?
+
+Deployment Models (GCP)
+9) How does Google Cloud meet the definition of a public cloud under NIST SP 800-145, and what would disqualify a GCP deployment from being considered cloud?
+10) What architectures in GCP would qualify as hybrid cloud under NIST’s definition, and why?
+11) How could GCP be used to support a “community cloud” model, even though Google Cloud itself is a public provider?
+
+Virtualization vs Cloud (GCP)
+12) Why does NIST state that virtualization alone is not cloud computing, and how does GCP go beyond virtualization to meet the cloud definition?
+13) Can you describe a GCP environment that uses virtualization but fails to meet one or more NIST cloud characteristics?
+
+Governance, Risk, and Security Operations (GCP)
+14) How does NIST’s definition of cloud computing influence how IAM is designed in GCP at the organization, folder, and project levels?
+15) Which GCP services help security teams manage the risks introduced by rapid elasticity and ephemeral resources?
+16) How does GCP’s logging and monitoring architecture support accountability in a NIST-defined cloud environment?
+
+Compliance, FedRAMP, and NIST Alignment
+17) Why is NIST SP 800-145 foundational to FedRAMP, and how does Google Cloud align its platform offerings with that definition?
+18) How would you use NIST SP 800-145 to evaluate whether a GCP-based government environment meets cloud computing requirements?
+
+Vendor Claims & Real-World Scenarios
+19) If an organization claims they are running a “private cloud” on GCP, how would you evaluate that claim using NIST SP 800-145?
+20) How would you explain to leadership why simply hosting workloads in GCP does not automatically mean they are operating a true cloud environment?
+
+Senior / Architecture-Level Questions
+21) How does NIST SP 800-145 help security architects reason about service selection and risk tradeoffs in Google Cloud?
+22) Why does NIST’s cloud definition remain relevant as GCP expands into managed, serverless, and AI-driven services?
+
+Interview-Level Closing Line: “Google Cloud provides the platform — NIST SP 800-145 tells us whether we’re actually operating as cloud.”
+
+
+
+
+
