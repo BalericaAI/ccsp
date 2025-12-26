@@ -1,0 +1,83 @@
+Anticipated Interview Questions
+Based on NIST SP 800-145 (Definition of Cloud Computing)
+1. Foundational Understanding
+
+How does NIST define cloud computing, and why is that definition still relevant today?
+(Interviewers want to see if you understand principles, not buzzwords.)
+
+Why does NIST require all five essential characteristics to be present before calling something “cloud”?
+(Tests precision and standards-based thinking.)
+
+2. Essential Characteristics (Deep Reasoning)
+
+Which of the five essential characteristics introduces the greatest security risk, and why?
+(There is no single correct answer — reasoning matters.)
+
+How does on-demand self-service change governance and access control compared to traditional IT?
+(Signals understanding of IAM and policy challenges.)
+
+Why does rapid elasticity complicate security monitoring and incident response?
+(Looks for awareness of scale, ephemerality, and tooling.)
+
+Why does NIST consider measured service a defining characteristic rather than just a billing feature?
+(Tests insight into accountability, logging, and auditability.)
+
+3. Multi-Tenancy & Trust
+
+What security assumptions change when moving from single-tenant infrastructure to NIST’s resource pooling model?
+(Evaluates threat modeling maturity.)
+
+How would you explain multi-tenancy risk to a non-technical executive using NIST language?
+(Tests communication skills.)
+
+4. Service Models (IaaS, PaaS, SaaS)
+
+Why does NIST define cloud service models by abstraction rather than by technology?
+(Shows conceptual clarity.)
+
+How does moving from IaaS to SaaS change what a security team is responsible for — even though NIST doesn’t explicitly say so?
+(Tests ability to infer shared responsibility.)
+
+5. Deployment Models
+
+Why did NIST include “community cloud” as a distinct deployment model?
+(Strong candidates tie this to compliance, shared risk, and governance.)
+
+From a security perspective, when would a hybrid cloud be necessary rather than optional?
+(Tests practical judgment.)
+
+6. Virtualization vs Cloud
+
+Why does NIST explicitly state that virtualization alone is not cloud computing?
+(Very common interview question.)
+
+Can you give an example of something that uses virtualization but would not meet NIST’s cloud definition?
+(Separates memorization from understanding.)
+
+7. Governance & Compliance
+
+Why do you think NIST SP 800-145 avoids prescribing controls or security requirements?
+(Shows awareness of how standards are used.)
+
+How does NIST’s definition support frameworks like FedRAMP or CCSP without duplicating them?
+(Tests ecosystem-level thinking.)
+
+8. Real-World Application
+
+If a vendor claims they offer “private cloud,” how would you evaluate that claim using NIST SP 800-145?
+(This is a very real interview scenario.)
+
+How would you use NIST SP 800-145 to push back on misleading cloud marketing?
+(Signals professional confidence.)
+
+9. Meta / Senior-Level Questions
+
+Why do you think NIST chose to publish a short definition document instead of a detailed technical standard?
+(Tests long-term thinking.)
+
+If cloud technologies evolve, why does NIST SP 800-145 still matter?
+(Great closing question — shows maturity.)
+
+One-sentence interview killer (teach them this)
+
+“NIST SP 800-145 matters because it defines what cloud is before we argue about how to secure it.”
