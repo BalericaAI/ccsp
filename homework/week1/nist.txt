@@ -1,0 +1,34 @@
+Homework: NIST SP 800-145 — Conceptual Understanding Questions
+
+Answer each question in your own words. Do not quote the document directly. 
+Assume you are explaining the concept to a technical manager, not a cloud engineer.
+
+NIST defines cloud computing using five essential characteristics.
+Why does NIST insist that all five must be present for a system to be considered “cloud computing,” rather than allowing partial definitions?
+
+On-demand self-service is described as a key characteristic.
+From a security and governance perspective, what risks does on-demand self-service introduce that do not exist in traditional IT environments?
+
+Broad network access is emphasized in the definition.
+Why is this characteristic especially important for cloud computing, and how does it change the security threat model compared to private data centers?
+
+Resource pooling relies on a multi-tenant model.
+What assumptions does NIST make about trust boundaries in multi-tenancy, and why is this a foundational concern for cloud security professionals?
+
+Rapid elasticity allows resources to scale outward and inward quickly.
+How does rapid elasticity complicate traditional approaches to capacity planning, security monitoring, and incident response?
+
+Measured service is included as an essential characteristic.
+Why does NIST treat metering and monitoring as a defining feature rather than a business feature, and how does this affect accountability?
+
+NIST defines three cloud service models: IaaS, PaaS, and SaaS.
+Why does NIST avoid defining security responsibilities directly in this document, and instead focus on abstraction levels?
+
+Cloud deployment models include public, private, community, and hybrid.
+What problem is the “community cloud” attempting to solve that public or private clouds alone cannot?
+
+NIST deliberately separates cloud computing from virtualization.
+Why is virtualization necessary but not sufficient for cloud computing under NIST’s definition?
+
+NIST SP 800-145 is intentionally short and non-prescriptive.
+Why is this design choice important for long-term relevance, especially as cloud technologies evolve?
