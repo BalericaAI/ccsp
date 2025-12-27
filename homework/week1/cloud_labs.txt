@@ -1,0 +1,9 @@
+Cloud Responsibility (Orientation / Pre-Class)
+
+CCSP: Domain 1 – Shared Responsibility
+
+AWS Lab:
+Create an AWS account → identify which controls AWS manages vs customer (document EC2, S3, IAM)
+
+GCP Lab:
+Create GCP project → identify Google vs customer responsibilities (Compute Engine, IAM, storage)
