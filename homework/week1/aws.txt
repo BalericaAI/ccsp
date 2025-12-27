@@ -1,0 +1,47 @@
+AWS LAB – Shared Responsibility Reality Check
+Lab Title: AWS Shared Responsibility Boundary Validation
+
+Success Criteria
+  Student can correctly identify AWS-managed vs customer-managed controls
+  Student produces a written responsibility table
+  Student can verbally defend at least 3 boundaries
+
+Technology to Use
+  AWS Console
+  IAM
+  EC2
+  S3
+
+Architecture (Text Diagram)
+
+[AWS Account]
+   |
+   +-- IAM
+   |     +-- User
+   |     +-- Role
+   |
+   +-- EC2 Instance
+   |
+   +-- S3 Bucket
+
+Lab Actions
+1) Create an EC2 instance
+2) Create an S3 bucket
+3) Identify:
+  Who patches the hypervisor?
+  Who secures the OS?
+  Who encrypts the bucket?
+  Who configures IAM?
+
+Hints
+  If AWS controls it, you cannot change it
+  If you can misconfigure it, it’s probably your responsibility
+  Think control, not service
+
+Extensions
+  Compare EC2 vs Lambda responsibility
+  Identify what changes if S3 uses AWS-managed encryption vs CMK
+
+Difficulty Multiplier (Hard Mode)
+  Explain responsibility during a breach scenario
+  “If data leaks, who is legally accountable and why?”
