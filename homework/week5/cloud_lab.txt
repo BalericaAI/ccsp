@@ -1,0 +1,9 @@
+Encryption & Key Management
+
+CCSP: Domain 2
+
+AWS Lab:
+Create customer-managed KMS key → encrypt S3 object → rotate key
+
+GCP Lab:
+Create Cloud KMS key → encrypt storage object → rotate key
