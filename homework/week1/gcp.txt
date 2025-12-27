@@ -1,0 +1,37 @@
+GCP LAB – Shared Responsibility Reality Check
+Lab Title: GCP Responsibility Boundary Mapping
+
+Success Criteria
+  Correct identification of Google vs customer controls
+  Written explanation of IAM responsibility
+  Diagram of trust boundaries
+
+Technology to Use
+  Google Cloud Console
+  IAM
+  Compute Engine
+  Cloud Storage
+
+Architecture (Text Diagram)
+[Organization]
+   |
+   +-- Project
+         |
+         +-- IAM Policy
+         |
+         +-- Compute Engine VM
+         |
+         +-- Cloud Storage Bucket
+Hints
+  Google manages infrastructure, not your configuration
+  IAM is always your responsibility
+
+Extensions
+  Compare GCP Project vs AWS Account blast radius
+
+Difficulty Multiplier (Hard Mode)
+  Explain responsibility differences between AWS and GCP verbally
+
+
+
+
