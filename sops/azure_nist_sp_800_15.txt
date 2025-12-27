@@ -1,0 +1,48 @@
+Azure / Active Directory–Focused Interview Questions
+Based on NIST SP 800-145 (Cloud Computing Definition)
+“In Azure, identity is the perimeter — and NIST SP 800-145 explains why that matters.”
+
+Essential Characteristics (Azure + Identity Context)
+1) How does Azure Active Directory enable “on-demand self-service” under NIST SP 800-145, and what new identity risks does this introduce?
+2) Why is identity considered the primary control plane in Azure, and how does this align with NIST’s concept of broad network access?
+3) How does Azure’s identity-first model change the trust boundary compared to traditional Active Directory environments?
+4) Which Azure AD features most clearly support rapid elasticity, and why does this complicate access governance?
+5) How does Azure AD logging and sign-in telemetry support NIST’s definition of measured service from a security standpoint?
+
+Service Models (IaaS / PaaS / SaaS with Azure AD)
+6) How does Azure Active Directory abstract identity differently across IaaS, PaaS, and SaaS services in Azure?
+7) Why does NIST define service models by abstraction, and how does Azure AD demonstrate increasing abstraction across Azure services?
+8) How does moving from IaaS-based authentication to Azure AD–integrated PaaS services change the shared responsibility model?
+
+Resource Pooling & Multi-Tenancy (Azure AD Focus)
+9) How does Azure Active Directory support multi-tenancy, and why is this a core security concern under NIST’s resource pooling characteristic?
+10) What assumptions does Azure make about tenant isolation in Azure AD, and how should security teams validate those assumptions?
+11) How do Azure AD tenants reflect NIST’s view of logical isolation rather than physical isolation?
+
+Deployment Models (Azure Identity)
+12) How does Azure AD support public cloud deployment under NIST SP 800-145, and what identity controls are required to manage that risk?
+13) How does Azure AD enable hybrid cloud deployments, and why is identity the hardest part of hybrid cloud security?
+14) In what scenarios could Azure AD support a “community cloud” model under NIST’s definition?
+
+Virtualization vs Cloud (Identity-Centric View)
+15) Why does NIST say virtualization alone is not cloud computing, and how does Azure AD illustrate this distinction?
+16) Can you describe an Azure environment that uses virtual machines and Active Directory but does not fully meet NIST’s cloud definition?
+
+Governance, Risk, and Identity Operations
+17) How does NIST SP 800-145 influence how Azure AD roles and permissions should be designed?
+18) Why is over-permissioning in Azure AD especially dangerous in a NIST-defined cloud environment?
+19) How do Conditional Access and identity-based controls address risks introduced by broad network access?
+
+Compliance, NIST, and FedRAMP (Azure Perspective)
+20) Why is Azure Active Directory critical for meeting NIST and FedRAMP requirements in cloud environments?
+21) How would you evaluate an Azure Government or Azure commercial tenant against NIST SP 800-145’s cloud definition?
+
+Vendor Claims & Real-World Scenarios
+22) If an organization claims Azure AD makes their environment “secure by default,” how would you challenge that claim using NIST SP 800-145?
+23) How would you explain to leadership why identity misconfiguration in Azure AD is a cloud risk, not just an IT issue?
+
+Senior / Architecture-Level Questions
+24) How does NIST SP 800-145 help security architects reason about identity as the control plane in Azure?
+25) Why does Azure AD become more critical—not less—as organizations move deeper into cloud-native and SaaS services?
+
+
