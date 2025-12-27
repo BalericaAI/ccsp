@@ -1,0 +1,15 @@
+Data Lifecycle & Classification
+
+CCSP: Domain 2
+
+AWS Lab:
+  Create S3 bucket with:
+  encryption enabled
+  lifecycle policy
+  object versioning
+
+GCP Lab:
+Create Cloud Storage bucket with:
+  CMEK
+  retention policy
+  lifecycle rules
