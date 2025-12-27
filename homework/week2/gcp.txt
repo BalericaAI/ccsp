@@ -1,0 +1,35 @@
+WEEK 2 – CLOUD HIERARCHY & BLAST RADIUS
+CCSP Focus
+
+Domain 1 – Architecture & Design
+Core idea: Bad hierarchy = large blast radius
+
+☁️ GCP LAB – Org / Folder / Project Model
+Lab Title: GCP Hierarchy & Blast Radius Control
+
+Success Criteria
+  Correct org → folder → project structure
+  Explanation of policy inheritance
+
+Technology to Use
+  GCP IAM
+  Resource Manager
+
+Architecture (Text Diagram)
+[Organization]
+   |
+   +-- Folder
+         |
+         +-- Project
+               |
+               +-- Resources
+
+Hints
+  Policies flow downward
+  Projects isolate damage
+
+Difficulty Multiplier (Hard Mode)
+  Explain how one bad policy at org level breaks everything
+
+
+
