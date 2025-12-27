@@ -1,0 +1,37 @@
+WEEK 2 – CLOUD HIERARCHY & BLAST RADIUS
+CCSP Focus
+
+Domain 1 – Architecture & Design
+Core idea: Bad hierarchy = large blast radius
+
+☁️ AWS LAB – Account & Identity Scope
+Lab Title: AWS Account Blast Radius Mapping
+
+Success Criteria
+  Student understands root vs IAM users vs roles
+  Student explains why root is radioactive
+  Student diagrams blast radius
+
+Technology to Use
+  AWS Organizations (conceptual)
+  IAM
+
+Architecture (Text Diagram)
+[Root Account]
+   |
+   +-- IAM Users
+   |
+   +-- IAM Roles
+
+Hints
+  Root should never be used
+  Roles limit blast radius
+
+Extensions
+  Add SCPs (conceptually)
+
+Difficulty Multiplier (Hard Mode)
+  Explain how a compromised IAM user impacts billing
+
+
+
