@@ -1,3 +1,9 @@
+WEEK 1 – SHARED RESPONSIBILITY & CLOUD BOUNDARIES
+CCSP Focus
+
+Domain 1 – Cloud Concepts, Architecture, Design
+Core idea: Who is responsible for what, and why mistakes are yours
+
 AWS LAB – Shared Responsibility Reality Check
 Lab Title: AWS Shared Responsibility Boundary Validation
 
